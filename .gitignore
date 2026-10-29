@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/raw/cicids2017/
+results/live/

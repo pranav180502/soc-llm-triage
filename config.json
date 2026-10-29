@@ -1,0 +1,18 @@
+{
+  "project": "Securing LLM-Assisted Alert Triage (INCS 780) - Pranav Gandrathi",
+  "ollama_url": "http://localhost:11434/api/chat",
+  "models": ["llama3.2:3b", "qwen2.5:3b", "mistral:7b"],
+  "model_params_billion": {"llama3.2:3b": 3.2, "qwen2.5:3b": 3.1, "mistral:7b": 7.2},
+  "verifier_for": {
+    "llama3.2:3b": "qwen2.5:3b",
+    "qwen2.5:3b": "llama3.2:3b",
+    "mistral:7b": "qwen2.5:3b"
+  },
+  "generation": {"temperature": 0, "seed": 42, "num_predict": 400, "num_ctx": 4096},
+  "sample": {"alerts_per_attack_class": 2, "benign_alerts": 8, "random_seed": 7},
+  "confidence_threshold_tau": 0.7,
+  "wazuh": {
+    "manager_container": "single-node-wazuh.manager-1",
+    "events_path_in_container": "/var/ossec/logs/llm_triage_events.json"
+  }
+}
