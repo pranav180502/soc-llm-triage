@@ -1,0 +1,7 @@
+SOC Playbook PB-NET-01: Network alert triage (applies to all network-based SIEM alerts)
+1. Validate whether the traffic is expected for the source and destination (business service, scheduled job, known scanner).
+2. If the activity is malicious and the source is external: block the source address at the perimeter firewall and monitor for new sources.
+3. If an internal endpoint is involved or may be compromised: isolate the endpoint with the EDR, collect evidence and run a malware scan.
+4. If authentication services are targeted: review accounts, reset affected credentials and enable account lockout / MFA.
+5. If a public-facing service is targeted: apply rate limiting / WAF rules and patch the service.
+6. Escalate confirmed incidents to Tier 2 with the evidence collected; close only alerts verified as benign.

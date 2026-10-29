@@ -1,0 +1,4 @@
+model,params_B,detection_acc_%,mitre_acc_%,severity_within1_%,remediation_acc_%,hallucination_%,ASR_A1_%,ASR_A2_%,ASR_A3_%,ASR_A4_%,ASR_mean_%,ASR_A1+DEF_%,ASR_A2+DEF_%,ASR_A3+DEF_%,ASR_A4+DEF_%,ASR_mean+DEF_%,detection_acc+DEF_%,D1_false_flags_clean_%,mean_time_s,tokens_per_s,n_runs
+llama3.2:3b,3.2,44.4,44.4,50.0,10.0,0.0,100.0,100.0,100.0,100.0,100.0,0.0,10.0,0.0,90.0,25.0,5.6,0.0,9.86,34.95,116
+qwen2.5:3b,3.1,0.0,44.4,50.0,40.0,0.0,100.0,50.0,0.0,90.0,60.0,0.0,0.0,0.0,100.0,25.0,0.0,0.0,16.43,33.87,116
+mistral:7b,7.2,0.0,27.8,83.3,16.7,0.0,100.0,100.0,0.0,90.0,72.5,0.0,0.0,0.0,100.0,25.0,0.0,0.0,53.98,5.68,116

@@ -1,0 +1,23 @@
+Clean evaluation set (CICIDS2017)
+
+C001  malicious  Brute Force  FTP-Patator                 flows=7938
+C002  malicious  Brute Force  SSH-Patator                 flows=5897
+C003  malicious  DoS          DoS Hulk                    flows=231073
+C004  malicious  DoS          DoS GoldenEye               flows=10293
+C005  malicious  DDoS         DDoS                        flows=128024
+C006  malicious  Port Scan    PortScan                    flows=158930
+C007  malicious  Web Attack   Web Attack - Brute Force    flows=1507
+C008  malicious  Web Attack   Web Attack - XSS            flows=652
+C009  malicious  Botnet       Bot                         flows=371
+C010  malicious  Botnet       Bot                         flows=271
+C011  benign     Benign       BENIGN                      flows=93
+C012  benign     Benign       BENIGN                      flows=23
+C013  benign     Benign       BENIGN                      flows=95
+C014  benign     Benign       BENIGN                      flows=25
+C015  benign     Benign       BENIGN                      flows=23
+C016  benign     Benign       BENIGN                      flows=77
+C017  benign     Benign       BENIGN                      flows=18551
+C018  benign     Benign       BENIGN                      flows=45
+
+Per class: Brute Force=2, DoS=2, DDoS=1, Port Scan=1, Web Attack=2, Botnet=2, Benign=8
+Total alerts: 18

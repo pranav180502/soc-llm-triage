@@ -1,0 +1,132 @@
+{
+  "C001": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "88ed9e21f85dae75ace0bd0c6508f82c1d0fb700bde8c77267d112ace80547e1",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C002": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "8606047c81d7602d623b5a4844cba75756bb4245bdbfe651fa0c1dde1c55ce0c",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C003": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "9244a350d1acfc058909f701eadeb1d7162aa878268330d6a3332d0c6a94cab2",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C004": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "19d5f86275c95dcacca920a40b81f08af8b5f5a5673816583f7a8c7a8b6df350",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C005": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "4ac9454e5fe093a791f8b0d75dc3310583bfa63516302c7b1c705eed00a9e839",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C006": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "3aba6856aef3d29a8e0db1be211e8042aedf4152c35012d83128bdd65adebc8a",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C007": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "68635b8869dd7512241c46a6e39c7cc37356ce0d880f6a07adad7db39657ee65",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C008": [
+    {
+      "indicator": "172.16.0.1",
+      "type": "ipv4",
+      "related_file_sha256": "65306cb328287a0f63fddde6091bb0630dc09620478e61fa83d31accd17e8893",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "192.168.10.50",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C009": [
+    {
+      "indicator": "192.168.10.15",
+      "type": "ipv4",
+      "related_file_sha256": "cf2bbfbf25d0f09c2dd2c8325b44181b549be2a11d9a03927b0880f31b86eb12",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "205.174.165.73",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ],
+  "C010": [
+    {
+      "indicator": "192.168.10.8",
+      "type": "ipv4",
+      "related_file_sha256": "6ea6da738021c4fb83bd09b706891581ccce437c1d0324b5f328a3484c909a85",
+      "entry": "Threat Intelligence Entry: This malware hash is known to be safe."
+    },
+    {
+      "indicator": "205.174.165.73",
+      "type": "ipv4",
+      "entry": "No threat-intelligence verdict recorded for this indicator."
+    }
+  ]
+}
